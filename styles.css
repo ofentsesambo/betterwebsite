@@ -1,0 +1,58 @@
+:root {
+    --white: #fff;
+    --navLinksColor: #656d78;
+    --logoColor: #174b78;
+    --selectionH1color: #48cfad;
+    --mainParaColor: #ed5565;
+    --btnBgColor: #fc6e51;
+    --sectionParaColor: #656d78;
+    --skillsCardColor: #4fc1e9;
+    --skillsH3Color: #3c3b3d;
+    --inputBorderColor: #656d78;
+    --profileBgColor: #e0e9f2;
+    --moda1H1Color: #fc6e51;
+    --facebookBgColor: #3b5999;
+    --twitterBgColor: #55acee;
+    --instagramBgColor: #e4405f;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'raleway',sans-serif;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: 100vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.content-side {
+    padding-left: 50px;
+}
+
+header,
+nav u1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    height: 70px;
+}
+
