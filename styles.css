@@ -315,5 +315,49 @@ h1:nth-child(2) {
     visibility: hidden;
     transform: scale(1.1);
     transition: visibility 0s linear .25s, opacity .25s 0s, transform .25s;
+}
 
+.model-content {
+    background-color: (var--white);
+    position: absolute;
+    padding: 20px 40px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%)
+}
+
+.modal-ontent h1 {
+    color: var(--moda1H1Color);
+    font-weight: 300;
+    padding: 30px 0 10px 0;
+}
+
+.modal-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-content img {
+    width:40px;
+    margin: 0 30px 20px 0;
+}
+
+.modal-content p {
+    margin-top: 10px;
+}
+
+.close-modal {
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: visisbility 0s linear 0s, opacity .25s 0, transform .25s;
 }
